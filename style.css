@@ -1,0 +1,252 @@
+li{
+   list-style:none ;
+   text-align:left ;
+   display:inline-block ;
+   text-shadow:0.5px 0.5px 0.5px ;
+}
+
+a {
+   display: block;
+   padding:20px;
+   color:#3f8cd6;
+   font-size: 20px;
+ }
+
+ ul {
+   background-color:#1d1c18;
+   border:2px groove #3f8cd6 ;  
+   border-width: 3px;
+   overflow:hidden ;
+ }
+
+ nav{
+    margin-top:-14px;
+ }
+
+ div{
+    background-image:linear-gradient();
+    background-image:url();
+    background-repeat: no-repeat;
+    background-position:right,top;
+    background-size: cover;
+    background-color:#1d1c18 ;
+    border:2px solid #3f8cd6 ;
+ }
+
+ th,h1, label {
+    color:#AE4D37;
+    border:2px ,solid#f47200;
+    text-decoration: underline;
+    font-family:Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
+ }
+
+ /*div tag that hold my favorite quoute on the homepage*/
+ .wu2{
+   color:#AE4D37;
+   background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbhGPPSm1hxpcB2yhKbiH0QJajAQm34f8vIA&usqp=CAU);
+   background-size: 700px;
+   position:relative;
+   left: 0px;
+   height: 200px;
+   font-size: 38px;
+   margin-right: 0px;
+   margin-top: -120px;
+   overflow:hidden ;
+   font-family:Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
+   text-shadow:0.5px 0.5px 0.5px ;
+ }
+
+ /*name of the website located in the nav bar*/
+ .name{
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
+    text-underline-position: below ;
+    color:#f47200;
+    position:relative;
+    margin-left: 100px;
+    text-shadow:1px 1px 1px black
+ }
+ 
+ tr{
+    border:2pxs
+ }
+
+ p{
+    color:#3f8cd6;
+ }
+
+ /*"featured videos on the index page*/
+ .fv1{
+    position:relative;
+    z-index:1;
+    top:150px;
+    left:100;
+ }
+
+ li a:hover {
+   background-color: #111;
+   color:#AE4D37;
+ }
+
+ hr{
+    background-color:#AE4D37;
+    width:1000px;
+    height:5px;
+ }
+/*horizontal line break on the pd-personal developemnt html*/
+ .hr-pd{
+   background-color:#AE4D37;
+   width:800px;
+   height:5px;
+ }
+/* the words besides the horizontal line break on the collection pages ,the six following "clases"*/
+ .h4-1{
+    color:#3f8cd6;
+    position: relative;
+    margin-top:-20px;
+    margin-left:35px;
+ }
+
+ .h4-2{
+   color:#3f8cd6;
+   position: relative;
+   margin-top:-40px;
+   margin-left:1125px;
+ }
+
+ .h4-3{
+   color:#3f8cd6;
+   position:relative;
+   margin-top:-20px;
+   margin-left:45px;
+}
+
+.h4-4{
+   color:#3f8cd6;
+   position:relative;
+   margin-top:-40px;
+   margin-left:1025px;
+}
+
+.h4-5{
+   color:#3f8cd6;
+   position:relative;
+   margin-top:-20px;
+   margin-left:60px;
+}
+
+.h4-6{
+   color:#3f8cd6;
+   position:relative;
+   margin-top:-40px;
+   margin-left:1125px;
+}
+
+input{
+   color:lightseagreen;
+}
+
+/*the div tag for the thank you on the form page*/
+.p-form{
+   position:relative;
+   margin-top:-550px;
+   left:550px;
+   text-align:center;
+   width:500px;
+   color:lightseagreen;
+   border-style: none;
+}
+
+h2{
+   position:relative;
+   margin-top:-200px;
+   left:0px;
+   color:lightseagreen;
+}
+
+.div2{
+   height:750px;
+
+}
+
+.ft-v{
+   color:#AE4D37;
+   overflow:hidden ;
+   
+}
+.ft-v:hover{
+   background-color: #111;
+   color:#3f8cd6;
+}
+
+/*the videos pages ONLY*/
+iframe-videos{
+   padding: 20px;
+}
+
+th:hover{
+   background-color: #111;
+   color:#AE4D37;
+
+}   
+
+h1{
+   text-shadow:2px 2px 2px black;
+}
+
+
+/*let get paid animations*/
+.animation{
+   width:120px;
+   height:25px;
+   font-size:20px;
+   animation-name: identi;
+   animation-duration: 5s;
+   animation-delay: 1s;
+   animation-timing-function: ease-out;
+   animation-iteration-count:infinite;
+   color:darkgrey;
+   background-color: green;
+   position:relative;
+   margin-top:-650px;
+   left:5px;
+   border:2px orange;
+   border-style:solid;
+}
+
+@keyframes identi {
+   0%{background-color:green; left:0px; top:0px;}
+   20%{background-color:goldenrod; left:100px top:0px;}
+   40%{background-color:red; left:220px; top:50px;}
+   60%{background-color:brown; left:170px; top:70px;}
+   80%{background-color:teal; left:210px; top:90px;}
+   100%{background-color: purple; left:285px; top:45px;}  
+}
+
+/* "dont forget to smile" animations*/
+.animation2{
+   width:180px;
+   height:25px;
+   font-size:20px;
+   animation-name: identi2;
+   animation-duration: 5s;
+   animation-delay: 1s;
+   animation-timing-function: ease-out;
+   animation-iteration-count:infinite;
+   color:darkgrey;
+   background-color: green;
+   position:relative;
+   left:5px;
+   border:2px orange;
+   border-style:solid;
+}
+
+@keyframes identi2 {
+   0%{background-color:beige; left:0px; top:30px;}
+   20%{background-color:pink; left:60px top:15px;}
+   40%{background-color:blueviolet; left:40px; top:10px;}
+   60%{background-color:brown; left:40px; top:70px;}
+   80%{background-color:blue violet; left:30px; top:45px;}
+   100%{background-color: peru; left:15px; top:25px;}  
+}
+
